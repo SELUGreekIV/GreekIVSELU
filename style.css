@@ -28,19 +28,25 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
+  gap: 2rem;            /* more breathing room */
+  flex-wrap: nowrap;    /* keep in one row */
 }
 
 .header-logos img {
-  max-width: 60px;
+  max-width: 70px;      /* make logos a bit bigger */
   height: auto;
 }
 
 .header-logos h1 {
-  font-size: 1.5rem;
+  flex: 1;              /* let it expand between logos */
+  text-align: center;   /* centered title */
+  font-size: 2rem;      /* larger, bold title */
+  font-weight: 700;
+  color: white;
   margin: 0;
+  text-decoration: none; /* ensure no underline */
 }
+
 
 /* Navigation */
 nav {
