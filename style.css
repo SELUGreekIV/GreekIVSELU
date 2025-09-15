@@ -47,6 +47,19 @@ header {
   text-decoration: none; /* ensure no underline */
 }
 
+.logo-title {
+  color: white;            /* text stays white */
+  text-decoration: none;   /* remove underline */
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  flex: 1;                 /* center between logos */
+}
+.logo-title:hover {
+  text-decoration: none;   /* remove underline on hover */
+  color: white;            /* keep it same on hover */
+}
+
 
 /* Navigation */
 nav {
